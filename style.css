@@ -1,0 +1,75 @@
+.record{
+ margin-right: 10rem;
+}
+.record h1{
+    color: white;
+font-size: 2rem;
+}
+.record h2{
+    color: white;
+}
+.record em{
+    color: white;
+}
+.record a{
+    text-decoration: none;
+    color: cyan;
+}
+.container{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.back{
+background-image: url(https://wallpaperaccess.com/full/1567665.png);
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.flex{
+    display: flex;
+}
+.right a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.right a:hover{
+    color: cyan;
+   
+}
+.flex1{
+    flex: 1;
+}
+.justify{
+    justify-content: space-between;
+}
+
+.button{
+    padding: 1rem 1rem;
+    color: cyan;
+    border: 1.5px all cyan;
+    border-color: aqua;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    background-color: transparent;
+}
+
+.button:hover{
+    background-color: cyan;
+    color: black;
+    border-color: aqua;
+}
+
+.class1{
+color: white;
+transition: all .3s ease-in;
+}
+
+.class1 td span:hover{
+    font-size: 1.2rem;
+}
